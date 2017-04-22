@@ -1,4 +1,7 @@
-# test coverage for  [file-saver (v1.3.3)](https://github.com/eligrey/FileSaver.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-file-saver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-file-saver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-file-saver.svg)](https://travis-ci.org/npmtest/node-npmtest-file-saver)
+# npmtest-file-saver
+
+#### basic test-coverage for  [file-saver (v1.3.3)](https://github.com/eligrey/FileSaver.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-file-saver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-file-saver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-file-saver.svg)](https://travis-ci.org/npmtest/node-npmtest-file-saver)
+
 #### An HTML5 saveAs() FileSaver implementation
 
 [![NPM](https://nodei.co/npm/file-saver.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/file-saver)
@@ -72,7 +75,8 @@
         "build": "uglifyjs FileSaver.js --mangle --comments /@source/ > FileSaver.min.js",
         "test": "echo \"Error: no test specified\" && exit 0"
     },
-    "version": "1.3.3"
+    "version": "1.3.3",
+    "bin": {}
 }
 ```
 
